@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BALFHB-WL-06D3") (type "KiCad") (uri "C:/Users/lollo/Desktop/Hardware_Projects/LoRa/Library/BALFHB-WL-06D3") (options "") (descr ""))
+	(lib (name "BGS12WN6E6327XTSA1") (type "KiCad") (uri "C:/Users/lollo/Desktop/Hardware_Projects/LoRa/Library/BGS12WN6E6327XTSA1") (options "") (descr ""))
+	(lib (name "RFPC-SMA27-F") (type "KiCad") (uri "C:/Users/lollo/Desktop/Hardware_Projects/LoRa/Library/RFPC-SMA27-F") (options "") (descr ""))
+	(lib (name "TPD2E2U06") (type "KiCad") (uri "C:/Users/lollo/Desktop/Hardware_Projects/LoRa/Library/TPD2E2U06") (options "") (descr ""))
+	(lib (name "usblc6-2sc6") (type "KiCad") (uri "C:/Users/lollo/Desktop/Hardware_Projects/LoRa/Library/usblc6-2sc6") (options "") (descr ""))
+)

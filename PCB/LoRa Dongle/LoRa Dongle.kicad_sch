@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c02c61df-c022-4ce6-8ed3-5af446324e39")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 210.82 86.36)
+		(size 48.26 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3dc59efd-a6a7-4d0c-b0d4-0c61bde6167b")
+		(property "Sheetname" "RF"
+			(at 210.82 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 210.82 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoRa Dongle"
+				(path "/c02c61df-c022-4ce6-8ed3-5af446324e39"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 80.01)
+		(size 72.39 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6ff3ebbb-7e09-4efc-ba93-e47922193595")
+		(property "Sheetname" "Connectors"
+			(at 29.21 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conn.kicad_sch"
+			(at 29.21 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoRa Dongle"
+				(path "/c02c61df-c022-4ce6-8ed3-5af446324e39"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 78.74)
+		(size 58.42 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7e58d4e-eb1f-4efb-ab18-a45e3067bc7a")
+		(property "Sheetname" "MCU"
+			(at 130.81 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 130.81 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoRa Dongle"
+				(path "/c02c61df-c022-4ce6-8ed3-5af446324e39"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

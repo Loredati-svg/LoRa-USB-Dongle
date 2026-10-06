@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BALFHB-WL-06D3
+D 50  nominal input / conjugate match balun to QFN-2L STM32WL in low power mode, 862-928 MHz with integrated harmonic filter
+K
+F https://www.st.com/resource/en/datasheet/balfhb-wl-06d3.pdf
+$ENDCMP
+#
+#End Doc Library

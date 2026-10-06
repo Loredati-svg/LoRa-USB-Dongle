@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BALFHB-WL-06D3
+#/17081576/846924/2.50/8/2/Integrated Circuit
+DEF BALFHB-WL-06D3 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "BALFHB-WL-06D3" 1350 200 50 H V L CNN
+F2 "BALFHBWL06D3" 1350 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/balfhb-wl-06d3.pdf" 1350 0 50 H I L CNN
+F4 "50  nominal input / conjugate match balun to QFN-2L STM32WL in low power mode, 862-928 MHz with integrated harmonic filter" 1350 -100 50 H I L CNN "Description"
+F5 "0.68" 1350 -200 50 H I L CNN "Height"
+F6 "511-BALFHB-WL-06D3" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BALFHB-WL-06D3?qs=T%252BzbugeAwjhP81DcbYyogA%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BALFHB-WL-06D3" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RFO_IN A1 0 0 200 R 50 50 0 0 P
+X RFI_N_OUT A2 0 -100 200 R 50 50 0 0 P
+X RFI_P_OUT A3 0 -200 200 R 50 50 0 0 P
+X GND2 B1 0 -300 200 R 50 50 0 0 P
+X GND3 B2 1500 0 200 L 50 50 0 0 P
+X RFO_OUT C1 1500 -100 200 L 50 50 0 0 P
+X GND1 C2 1500 -200 200 L 50 50 0 0 P
+X RFI_IN C3 1500 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
