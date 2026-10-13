@@ -1,5 +1,11 @@
 # LoRa USB Dongle
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Not Completed%20·%20Untested-yellowgreen" alt="Status">  <img src="https://img.shields.io/badge/KiCad-10.0-blue?logo=kicad&logoColor=white" alt="KiCad 10.0">
+  <img src="https://img.shields.io/badge/Hardware%20Rev-v1.0-brightgreen" alt="Hardware Rev">
+  <img src="https://img.shields.io/badge/License-CERN--OHL--P-orange" alt="License">
+</p>
+
 A compact USB-C LoRa dongle for the **868 MHz** EU band, built around the **STM32WLE5**.
 Plug it into a PC and it enumerates as a standard **USB serial port** (CP2102N, driver-free on most OSes); the antenna connects through an **SMA** jack.
 
