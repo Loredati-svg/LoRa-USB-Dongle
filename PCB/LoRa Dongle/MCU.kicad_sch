@@ -644,171 +644,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2860,16 +2695,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LDO 5v --> 3v3\n"
-		(exclude_from_sim no)
-		(at 61.722 84.836 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "1bbaf818-6b11-4089-9abb-bc97eae633a5")
-	)
 	(text "Place as close as possible to 3v3 pins"
 		(exclude_from_sim no)
 		(at 251.714 21.082 0)
@@ -2879,6 +2704,32 @@
 			)
 		)
 		(uuid "8aca18bb-9291-4f3c-bb24-63b9731c75f8")
+	)
+	(text "MCU\n"
+		(exclude_from_sim no)
+		(at 188.214 18.796 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "9f196c2b-0a28-4f6c-8059-a8b2fa186b50")
+	)
+	(text "5V to 3V3"
+		(exclude_from_sim no)
+		(at 57.15 80.772 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "bfe1c50f-5ae3-4bf5-95b8-12d9344bec19")
 	)
 	(junction
 		(at 214.63 57.15)
@@ -3384,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 99.06) (xy 44.45 105.41)
+			(xy 44.45 102.87) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +3881,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 105.41) (xy 30.48 105.41)
+			(xy 33.02 105.41) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4080,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 100.33) (xy 25.4 105.41)
+			(xy 33.02 100.33) (xy 33.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4138,16 +3989,6 @@
 			(type default)
 		)
 		(uuid "b9ddbc3e-8de7-4aae-80c5-9335ac5823c2")
-	)
-	(wire
-		(pts
-			(xy 38.1 105.41) (xy 44.45 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4a1c20-3f18-4e7f-b469-acf56f6e5047")
 	)
 	(wire
 		(pts
@@ -4553,16 +4394,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f37cc0d-ed68-408b-8cdb-8b6842f39801")
-	)
-	(label "5V"
-		(at 44.45 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc4a64a4-86ce-409e-9efb-de6978ca6dd5")
 	)
 	(global_label "SCL"
 		(shape output)
@@ -5714,7 +5545,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 25.4 100.33 0)
+		(at 33.02 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5725,7 +5556,7 @@
 		(fields_autoplaced yes)
 		(uuid "32835067-794e-4886-ac12-1eb95b50cc77")
 		(property "Reference" "#PWR041"
-			(at 25.4 104.14 0)
+			(at 33.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5736,7 +5567,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 25.4 95.25 0)
+			(at 33.02 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5746,7 +5577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 100.33 0)
+			(at 33.02 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5757,7 +5588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 100.33 0)
+			(at 33.02 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +5599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 25.4 100.33 0)
+			(at 33.02 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6985,7 +6816,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 44.45 99.06 0)
+		(at 44.45 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6996,7 +6827,7 @@
 		(fields_autoplaced yes)
 		(uuid "81b0141d-915d-4e4a-88dc-8a62ab77d8f0")
 		(property "Reference" "#FLG03"
-			(at 44.45 97.155 0)
+			(at 44.45 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7007,7 +6838,8 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 44.45 93.98 0)
+			(at 44.45 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7017,7 +6849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 99.06 0)
+			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +6860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 99.06 0)
+			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7039,7 +6871,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 99.06 0)
+			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,87 +7511,6 @@
 			(project "LoRa Dongle"
 				(path "/c02c61df-c022-4ce6-8ed3-5af446324e39/e7e58d4e-eb1f-4efb-ab18-a45e3067bc7a"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 34.29 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a520809c-5a2e-47e1-a4a2-84419482b80f")
-		(property "Reference" "F1"
-			(at 34.29 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 34.29 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
-			(at 39.37 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "PPTC 15V 500MA-HD 100A MAX"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2badc22f-037c-4cbc-8e38-d47690c21466")
-		)
-		(pin "1"
-			(uuid "3f30f061-33c4-4889-b4d5-d6c48134784b")
-		)
-		(instances
-			(project "LoRa Dongle"
-				(path "/c02c61df-c022-4ce6-8ed3-5af446324e39/e7e58d4e-eb1f-4efb-ab18-a45e3067bc7a"
-					(reference "F1")
 					(unit 1)
 				)
 			)
