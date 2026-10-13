@@ -1,7 +1,7 @@
 # LoRa USB Dongle
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Not%20Completed-red" alt="Status">  <img src="https://img.shields.io/badge/KiCad-10.0-blue?logo=kicad&logoColor=white" alt="KiCad 10.0">
+  <img src="https://img.shields.io/badge/Status-Work%20in%20progress-yellow" alt="Status">  <img src="https://img.shields.io/badge/KiCad-10.0-blue?logo=kicad&logoColor=white" alt="KiCad 10.0">
   <img src="https://img.shields.io/badge/Hardware%20Rev-v1.0-brightgreen" alt="Hardware Rev">
   <img src="https://img.shields.io/badge/License-CERN--OHL--P-orange" alt="License">
 </p>
