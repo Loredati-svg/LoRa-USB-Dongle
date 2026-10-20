@@ -349,7 +349,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Missing_symbols:BALFHB-WL-06D3"
+		(symbol "eRFModule:BALFHB-WL-06D3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(property "Footprint" "BALFHB-WL-06D3:BALFHBWL06D3"
+			(property "Footprint" "eRFModule:BALFHBWL06D3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2758,7 +2758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Missing_symbols:BALFHB-WL-06D3")
+		(lib_id "eRFModule:BALFHB-WL-06D3")
 		(at 59.69 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -2788,7 +2788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BALFHB-WL-06D3:BALFHBWL06D3"
+		(property "Footprint" "eRFModule:BALFHBWL06D3"
 			(at 59.69 54.61 0)
 			(hide yes)
 			(show_name no)

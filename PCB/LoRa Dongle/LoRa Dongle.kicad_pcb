@@ -150,7 +150,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "BALFHB-WL-06D3:BALFHBWL06D3"
+	(footprint "eRFModule:BALFHBWL06D3"
 		(layer "F.Cu")
 		(uuid "015cd807-519d-4dfe-9681-d5c609557720")
 		(at 55.51 113.29 -90)
@@ -448,7 +448,7 @@
 			(uuid "b9fbecad-3316-4066-a1d5-9319514e1b74")
 		)
 		(embedded_fonts no)
-		(model "BALFHB-WL-06D3.stp"
+		(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BALFHB-WL-06D3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4519,7 +4519,7 @@
 			)
 		)
 	)
-	(footprint "RFPC-SMA27-F:RFPCSMA27F"
+	(footprint "eConnector:RFPCSMA27F"
 		(layer "F.Cu")
 		(uuid "5920ded2-ded6-4b1d-856c-3d43d28ad947")
 		(at 64.5 102.55 180)
@@ -5250,7 +5250,7 @@
 			(uuid "fcde5426-7c6a-4da8-9f6f-1e5448ac8b94")
 		)
 		(embedded_fonts no)
-		(model "RFPC-SMA27-F.stp"
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/RFPC-SMA27-F.stp"
 			(offset
 				(xyz -0.05 0 0.28)
 			)
@@ -7419,7 +7419,7 @@
 			(uuid "ded5ca91-9b13-404f-9cf4-9678006a8c63")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/lollo/Desktop/Hardware_Projects/LoRa/Library/BGS12WN6E6327XTSA1/BGS12WN6E6327XTSA1.stp"
+		(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BGS12WN6E6327XTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
