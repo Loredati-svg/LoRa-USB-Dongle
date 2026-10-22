@@ -12,6 +12,27 @@ Plug it into a PC and it enumerates as a standard **USB serial port** (CP2102N, 
 
 <img width="600" alt="Top view" src="https://github.com/user-attachments/assets/29c8bbf9-87e6-45f2-b0b9-3b5891f112a1" />
 
+## Libraries
+
+This project uses the shared KiCad libraries from L2-Hardware.
+
+1. Clone the library repository **in the same parent folder as your project folders**, so that it sits next to them:
+
+```bash
+   git clone https://github.com/L2-Hardware/Kicad_Libs
+```
+
+   Expected folder structure:
+
+```
+   Kicad/
+   ├── Kicad_Libs/
+   ├── Project1/
+   └── Project2/
+   └── etc...
+```
+---
+
 ## Block diagram
 
 ```
